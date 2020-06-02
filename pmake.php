@@ -22,7 +22,7 @@ if (isset($opt['h']))
 	print ("For pmake to work make sure you have phar.readonly = Off in your php.ini file.\n\n");
 	print ("\e[3mOptions:\e[0m\n");
 	print ("-h\tprints this very information\n\n");
-	exit(0).
+	exit(0);
 }
 
 $mfs = ['makefile','pmakefile'];
